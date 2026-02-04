@@ -1,0 +1,20 @@
+Designing json  rest api 
+
+Get /User->list all user ->html document render 
+GET /api/User-list all user
+
+GET /api/User/1->get the user with id 1;
+GET /api/Ueer/2->Get the user with id 2;
+
+Dynamic path parameter 
+GET api/users/:id
+:id->variable
+
+POST /api/users ->create new user 
+
+PATCH /api/users/1 ->Edit the user with id 1;
+
+DELETE/api/user/1->delete the user with id 1;
+
+
+=>moccaro dot.com we have which generate fake data for testing porpouse because we dont have connection to db or we dont have db so it help to give multiple user
